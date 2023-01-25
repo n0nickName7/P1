@@ -1,0 +1,153 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 700px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+}
+
+
+
+a:link {
+    text-decoration: none; color: white;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #1f2937;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 200px;
+
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-left: 150px;
+
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+
+}
+
+.top-button {
+    padding: 8px 8px;
+    width: 15%;
+    background-color: blue;
+    color: white;
+    flex: 1;
+
+}
+
+.text {
+    margin: auto;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+    
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bottom {
+    margin: 100px 300px 100px 300px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.real-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 300px 50px 300px;
+    align-items: flex-start;
+}   
+
+.underneath {
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.top-pic {
+    margin-right: 150px;
+}
